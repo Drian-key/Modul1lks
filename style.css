@@ -34,14 +34,19 @@ header .header-content{
 }
 
 header .header-content h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: blanchedalmond;
 }
 
+header .header-content h1:hover{
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+
+
 /* Bagian Main Content */
-main .main-title h3{
+main .main-title h1{
     text-align: center;
-    color: blanchedalmond;
 }
 
 
